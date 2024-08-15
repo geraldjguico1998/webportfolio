@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Gerald Guico</title>
+  </head>
+  <body>
+    <div id="paralax-effect" class="sticky-top">
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-light custom-container custom-bg"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" id="logo">Giks</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto d-flex align-items-center">
+              <a class="nav-link active" aria-current="page" href="#landing"
+                >Home</a
+              >
+              <a class="nav-link" href="#projects">Projects</a>
+              <a class="nav-link" href="#tools">Tools</a>
+              <a id="say-hi" class="nav-link" href="#contact">Say Hi</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <section
+        id="landing"
+        class="row p-5 text-white text-center align-items-center custom-container custom-bg sticky-top"
+      >
+        <div class="col-lg-7">
+          <h1>
+            Let’s code your <span class="hero-span">website</span> to life!
+          </h1>
+          <p>
+            I'm a full stack developer with a passion for turning ideas into
+            sleek, functional websites.
+          </p>
+          <a href="#contact"
+            ><button class="btn btn-warning custom-btn">Let's Talk</button></a
+          >
+        </div>
+
+        <div
+          class="custom-lottie col-lg-5 d-flex justify-content-center align-items-center"
+        >
+          <script
+            src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+            type="module"
+          ></script>
+
+          <dotlottie-player
+            id="lottie-file"
+            src="https://lottie.host/00434ccb-ca9d-4a25-a4ec-89002781fd85/jPsKkRXtXW.json"
+            background="transparent"
+            speed="1"
+            style="width: 900px; margin-top: -100px"
+            loop
+            autoplay
+          ></dotlottie-player>
+        </div>
+      </section>
+    </div>
+
+    <!-- tools -->
+
+    <section id="tools">
+      <div class="row py-lg-5 custom-container">
+        <div class="col-lg-6 pe-lg-5">
+          <h2>
+            Hi! I'm <span class="n">Gerald Guico</span>, your full stack
+            <span class="section-span">web developer</span>.
+          </h2>
+        </div>
+        <div class="col-lg-6 ps-lg-5">
+          <p>
+            I use a wide range of tools to build innovative and effective web
+            solutions, handling everything from front-end design to back-end
+            development.
+          </p>
+          <a href="#contact"
+            ><button class="btn btn-warning custom-btn mt-3">
+              Let's talk
+            </button></a
+          >
+        </div>
+      </div>
+
+      <div id="tools-cards" class="row py-5 custom-container">
+        <div class="col-lg-4 p-3 p-md-5 p-lg-5">
+          <img src="./images/icon-satu.png" class="pb-5" />
+          <h4 class="pb-1">Frontend Development</h4>
+          <ul>
+            <li>Build intuitive interfaces</li>
+            <li>Use HTML5, CSS3, JavaScript</li>
+            <li>Create responsive designs</li>
+            <li>Ensure accessibility</li>
+            <li>Optimize for performance</li>
+          </ul>
+        </div>
+        <div class="col-lg-4 p-3 p-md-5 p-lg-5">
+          <img src="./images/icon-tiga.png" class="pb-5" />
+          <h4 class="pb-1">Backend Development</h4>
+          <ul>
+            <li>Design robust server-side logic</li>
+            <li>Work with databases and APIs</li>
+            <li>Ensure security and scalability</li>
+            <li>Optimize server performance</li>
+            <li>Manage data storage solutions</li>
+          </ul>
+        </div>
+        <div class="col-lg-4 p-3 p-md-5 p-lg-5">
+          <img src="./images/feature-satu.png" class="pb-5" />
+          <h4 class="pb-1">Full-stack Development</h4>
+          <ul>
+            <li>Build end-to-end web solutions</li>
+            <li>Integrate front-end with back-end</li>
+            <li>Manage databases and server logic</li>
+            <li>Ensure seamless user experience</li>
+            <li>Deploy and maintain web applications</li>
+          </ul>
+        </div>
+      </div>
+
+      <div
+        id="tools-img"
+        class="container d-flex flex-wrap pt-5 custom-container gap-5 justify-content-around"
+      >
+        <img src="./images/html.png" alt="HTML" class="img-fluid" />
+        <img src="./images/css.png" alt="CSS" class="img-fluid" />
+        <img src="./images/js.png" alt="JavaScript" class="img-fluid" />
+        <img src="./images/nodejs.png" alt="Node.js" class="img-fluid" />
+        <img src="./images/react.png" alt="React" class="img-fluid" />
+      </div>
+    </section>
+
+    <!-- projects -->
+
+    <section id="projects">
+      <div class="row py-lg-5 custom-container">
+        <div class="custom-line"></div>
+        <div class="col-lg-6 pe-lg-5">
+          <h2>
+            Here are some of my <span class="section-span">best work</span>.
+          </h2>
+        </div>
+        <div class="col-lg-6 ps-lg-5">
+          <p>
+            Including custom-built websites with robust backends and sleek
+            front-end designs. Each project showcases my ability to translate
+            client needs into fully functional, user-friendly digital
+            experiences.
+          </p>
+          <a href="#contact"
+            ><button class="btn btn-warning custom-btn mt-3">
+              Let's talk
+            </button></a
+          >
+        </div>
+      </div>
+
+      <div id="projects-cards" class="row py-5 custom-container">
+        <div class="col-lg-4 p-5">
+          <img src="./images/mastering transparent.png" class="pb-5" />
+          <a href="https://mastering.com/" target="_blank"
+            ><h4 class="pb-1">Mastering</h4></a
+          >
+          <p>
+            I turned this Figma mockup into a live WordPress site with custom
+            HTML, CSS, and JavaScript, bringing the design to life just as
+            envisioned.
+          </p>
+        </div>
+        <div class="col-lg-4 p-5">
+          <img src="./images/sturgis transparent.png" class="pb-5" />
+          <a href="https://sturgistt.com/" target="_blank"
+            ><h4 class="pb-1">Sturgis TT</h4></a
+          >
+          <p>
+            Redesigned this website in WordPress with custom HTML, CSS, and
+            JavaScript for a tailored, responsive experience.
+          </p>
+        </div>
+        <div class="col-lg-4 p-5">
+          <img src="./images/recruiting transparent.png" class="pb-5" />
+          <a href="https://therecruitingexp.com/" target="_blank"
+            ><h4 class="pb-1">Recruiting Experts</h4></a
+          >
+          <p>
+            Developed a white-labeled job listing website using WordPress, with
+            custom HTML, CSS, and JavaScript, featuring a complete backend for
+            both employers and talents.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact -->
+
+    <section id="contact">
+      <div
+        id="contact-columns"
+        class="row py-5 custom-container custom-bg align-items-center"
+      >
+        <div id="contact-column-1" class="col-lg-6 pe-lg-5">
+          <h2>Let's <span class="hero-span">build</span> something together</h2>
+          <p>
+            Whether you're looking to start a new project, improve an existing
+            one, or just want to chat about your ideas, I'm here to help.
+          </p>
+          <div class="d-flex gap-4 pt-3 pb-5 pt-lg-5">
+            <a href="https://www.facebook.com/" target="_blank"
+              ><img src="./images/facebook.png"
+            /></a>
+            <a href="https://www.instagram.com/" target="_blank"
+              ><img src="./images/instagram.png"
+            /></a>
+            <a href="https://github.com/" target="_blank"
+              ><img src="./images/github.png"
+            /></a>
+            <a href="https://gmail.com/" target="_blank"
+              ><img src="./images/gmail.png"
+            /></a>
+          </div>
+        </div>
+        <div id="contact-column-2" class="col-lg-6">
+          <form class="w-100" action="https://google.com/" target="_blank">
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                class="form-control"
+                value="John Doe"
+              />
+            </div>
+
+            <div class="mb-3">
+              <label for="email" class="form-label">Email Address</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="form-control"
+                value="john.doe@mail.com"
+              />
+            </div>
+
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                class="form-control"
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn" id="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <div id="map" class="map-container">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30847.805959804344!2d120.8518015597827!3d14.882634644326282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x339653645cbc026d%3A0x1747c2a7a45da2d3!2sRocka%20Village%20I%20and%20II!5e0!3m2!1sen!2sph!4v1723655520586!5m2!1sen!2sph"
+        width="100%"
+        height="300"
+        style="border: 0; filter: invert(90%) grayscale(1) contrast(83%)"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+
+    <footer
+      class="custom-container py-3 d-md-flex justify-content-between text-center"
+    >
+      <h5>Giks</h5>
+      <p>© All Rights Reserved 2024</p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

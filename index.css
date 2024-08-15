@@ -103,9 +103,9 @@ h2 {
 
 #landing p {
   font-size: 1rem;
-  font-weight: 300;
+  font-weight: 400;
   color: #4d5459 !important;
-  padding: 10px 0;
+  padding: 20px 0 10px;
 }
 
 .custom-lottie {

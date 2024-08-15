@@ -268,7 +268,7 @@ footer p {
 /* mobile */
 
 @media (max-width: 767.98px) {
-  #landing,
+  #projects,
   #tools,
   #contact {
     z-index: 9 !important;

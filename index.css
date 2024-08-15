@@ -268,6 +268,13 @@ footer p {
 /* mobile */
 
 @media (max-width: 767.98px) {
+  #landing,
+  #tools,
+  #contact {
+    z-index: 9 !important;
+    background-color: white !important;
+    position: relative !important;
+  }
   #landing button {
     padding: 15px 50px 15px 50px !important;
   }

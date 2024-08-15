@@ -92,6 +92,11 @@ h2 {
   color: #262d33;
   text-align: left !important;
   z-index: 0 !important;
+  margin: 0px !important;
+}
+
+body {
+  overflow-x: hidden !important;
 }
 
 #landing h1 {
@@ -103,9 +108,9 @@ h2 {
 
 #landing p {
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 300;
   color: #4d5459 !important;
-  padding: 20px 0 10px;
+  padding: 10px 0;
 }
 
 .custom-lottie {
@@ -335,6 +340,10 @@ footer p {
   .row {
     margin-right: 0px !important;
   }
+
+  body {
+    overflow-x: !important;
+  }
 }
 
 /* Tablet  */
@@ -364,6 +373,9 @@ footer p {
 
   .row {
     margin-right: 0px !important;
+  }
+  body {
+    overflow-x: !important;
   }
 }
 
